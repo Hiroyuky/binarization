@@ -1,6 +1,5 @@
 Binarization
 ===
-Overview
 - picture  
   <img src="https://github.com/Hiroyuky/binarization/blob/master/readme_pic/yu_raw.png" width="320px">
 - bainarization  
