@@ -11,17 +11,17 @@ githubって便利ですね☆
 from PIL import Image
 import numpy as np
 from matplotlib import pylab as plt
-import glob
 
-def function():
+def bainari(i, j):
 	
 	FILENAME_IN_DATA = 'DATA_pic/'		# 変換する画像ディレクトリ名
 	FILENAME_OUT_DATA = 'DATA_bainari/'	# 出力するディレクトリ名
 	FILENAME_IN_EXTENSION = '.bmp'		# 入力ファイル拡張子
-	FILENAME_OUT_EXTENSION = '.txt'		# 出力ファイル拡張子
+	FILENAME_OUT_EXTENSION = '.csv'		# 出力ファイル拡張子
+
 
 	# 扱う画像データ名
-	PIC_NAME = 'yu01'
+	PIC_NAME = str(i) + '_' + str(j)
 
 	# 入力するファイル名統合
 	picName = FILENAME_IN_DATA + PIC_NAME + FILENAME_IN_EXTENSION
@@ -44,8 +44,16 @@ def function():
 			else:
 				f.write("1")
 			f.write(",")
+
 		# スカラーにするときは↓をコメントアウト
-		f.write("\n")
+	f.write("\n")
 
 if __name__ == '__main__':
-	function()
+	K_MAX = 3	# クラス数
+	D_MAX = 5	# データ数
+
+	for i in range(0, K_MAX):
+		for j in range(0, D_MAX):
+			bainari(i, j)
+
+
