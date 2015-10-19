@@ -1,6 +1,4 @@
-# bainarization
-- 画像を二値化するコード
-- 拡張子はお好きにどうぞ
+Name
 
 ## DEMO
 - picture  
