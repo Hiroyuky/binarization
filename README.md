@@ -3,4 +3,5 @@
 - 拡張子はお好きにどうぞ
 
 ## お仕事
-![リンクテキスト](bainarization/readme_pic/yu_raw.png) 
+https://github.com/Hiroyuky/bainarization.wiki.git
+
