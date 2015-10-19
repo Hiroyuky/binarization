@@ -1,7 +1,12 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
+"""
+画像をグレースケール化し，そこからしきい値を設けて0or1の2値化処理します
+出力はテキストデータ
 
+githubって便利ですね☆
 
+"""
 
 from PIL import Image
 import numpy as np
@@ -24,6 +29,7 @@ def function():
 	binariName = FILENAME_OUT_DATA + PIC_NAME + FILENAME_OUT_EXTENSION
 
 	# 画像を配列に読み込んでグレースケールに変換
+	# 実際ミスっているけれど気にしてはいけない
 	img = np.array(Image.open(picName).convert('L'))
 
 	# 1/10にする（300x300 -> 30x30）
