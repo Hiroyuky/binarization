@@ -13,6 +13,7 @@ Binarization
 	FILENAME_IN_EXTENSION = '.bmp'		# 入力ファイル拡張子
 	FILENAME_OUT_EXTENSION = '.csv'		# 出力ファイル拡張子
 ```
+ディレクトリごとにまとめて変換する場合は以下を変更する．  
 ``` python
 	K_MAX = 3	# クラス数
 	D_MAX = 5	# データ数
