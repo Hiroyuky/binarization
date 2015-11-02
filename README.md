@@ -22,4 +22,4 @@ Binarization
 ``` python
 	comp = num
 ```
-## reference
+## Reference
