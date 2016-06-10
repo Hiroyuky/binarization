@@ -6,6 +6,19 @@ import numpy as np
 from matplotlib import pylab as plt
 
 def binari(k_max, d_max):
+	"""
+
+	Argment
+	----------
+	k_max: Number Class
+	d_max: Number Datas
+
+	Return
+	----------
+	pass
+	"""
+
+
 	FILENAME_IN_DATA = 'DATA_pic/'		# 変換する画像ディレクトリ名
 	FILENAME_OUT_DATA = 'DATA_binari/'	# 出力するディレクトリ名
 	FILENAME_IN_EXTENSION = '.bmp'		# 入力ファイル拡張子
